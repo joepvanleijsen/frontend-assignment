@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "es5",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"incremental": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"allowSyntheticDefaultImports": true,
+		"noFallthroughCasesInSwitch": true,
+		"paths": {
+			"@actions/*": ["actions/*"],
+			"@components/*": ["components/*"],
+			"@layouts/*": ["layouts/*"],
+			"@config/*": ["config/*"],
+			"@contexts/*": ["contexts/*"],
+			"@hooks/*": ["hooks/*"],
+			"@icons/*": ["components/general/icons/*"],
+			"@interfaces/*": ["libs/interfaces/*"],
+			"@libs/*": ["libs/*"],
+			"@pages/*": ["pages/*"],
+			"@reducers/*": ["reducers/*"],
+			"@shared/*": ["libs/shared/*"],
+			"@styles/*": ["styles/*"]
+		}
+	},
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules"]
+}
